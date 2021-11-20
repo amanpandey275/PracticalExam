@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Estonia&family=Hurricane&family=M+PLUS+1:wght@100&family=Montserrat+Alternates:wght@100&family=Mulish:wght@600&family=Roboto+Condensed&display=swap');
+body{
+    margin:0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 10;
+    display: flex;
+    border-bottom: 2px solid rgb(194,188,188);
+}
+.logo{
+    margin-left: 30px;
+    width: 20%;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin-left: 400px;
+    margin-top:25px;
+}
+.sub-container{
+    display: flex;
+}
+.content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-content{
+    width: 85%;
+    height: 80%;
+    text-align:left;
+    line-height: 25px;;
+}
+.image{
+    
+    width: 50%;
+    box-sizing: border-box;
+}
+.menu-font{
+    font-family: 'Mulish', sans-serif;
+    color: grey;
+    
+}
+.myimage{
+    width: 600px;
+    height: 600px;
+}
+.x{
+    font-size: 50px;
+    font-family: 'Mullish','sans-serif';
+
+}
+.z{
+    font-size: 15px;
+    font-family: monospace;
+    color: rgb(99, 97, 97);
+}
+.y{
+    font-size: 55px;
+    text-transform: capitalize;
+    font-family: 'Mulish', sans-serif;
+    color: rgba(233, 165, 40, 0.938);
+}
+.a{
+    margin-left: 15px;
+    border:none;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 25px;
+    background-color:rgba(214, 139, 0, 0.938);
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    border:2px solid rgba(238, 178, 68, 0.938);
+}
+.b{
+    margin-left: 25px;
+    border:none;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 25px;
+    border:2px solid rgba(238, 178, 68, 0.938);
+    color: black;
+    font-family: 'Mulish', sans-serif;
+}
+#mylogo{
+    width: 100px;
+    height: 100%;
+
+}
+.myicon{
+    height: 300%;
+}
